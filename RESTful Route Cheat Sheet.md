@@ -11,5 +11,5 @@
 | DELETE 	| /home/:id      	| DELETE    	| Deletes a particular post           	| ```Home.findByIdAndRemove()``` 	|
 
 
-<strong>'Home' is a mongoose instance</strong>
+<strong>'Home' is a mongoose instance</strong><br>
 <strong>':id' is particular post id</strong>
