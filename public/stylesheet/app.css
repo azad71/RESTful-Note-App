@@ -1,0 +1,16 @@
+nav .nav-link{
+    color: ghostwhite;
+    display: inline-block;
+}
+
+nav.nav {
+    margin-bottom: 50px;
+}
+
+#form{
+    border: 2px solid #f7f7f9;
+}
+
+#delete{
+    display: inline;
+}
