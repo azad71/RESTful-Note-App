@@ -14,6 +14,6 @@ and then run it in Node.js environment.
 ### Install dependencies
 ```npm install express ejs mongoose body-parser method-override express-sanitizer --save ```
 
-**One last thing, before running this app install mongodb in your workspace (mongoose alone won't help) and keep mongod running **
+<strong>One last thing, before running this app install mongodb in your workspace (mongoose alone won't help) and keep mongod running</strong>
 
 
