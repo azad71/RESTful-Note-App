@@ -48,6 +48,7 @@ app.get("/notes/new", (req, res) => {
 
 //CREATE ROUTE
 app.post("/notes", (req, res) =>{
+    //get rid of any script tag found in body
     req.body.note.content = req.sanitize( req.body.note.content);
     Note.create(req.body.note, (err, createNote) =>{
         if(err) {
@@ -82,6 +83,7 @@ app.get("/notes/:id/edit", (req, res) => {
 
 //UPDATE ROUTE
 app.put("/notes/:id", (req, res) => {
+    //get rid of any script tag found in body
     req.body.note.content = req.sanitize(req.body.note.content);
     Note.findByIdAndUpdate(req.params.id, req.body.note, (err, updatedBlog) => {
        if(err) {
